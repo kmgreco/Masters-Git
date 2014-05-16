@@ -10,4 +10,3 @@ z <- diffinv(rnorm(99))
 z <- filter(rnorm(25, 100), filter = rep(1, 15), circular = TRUE)
 plot(time, z, type = 'l')
 
-#Testing
